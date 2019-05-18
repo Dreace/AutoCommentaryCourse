@@ -1,0 +1,14 @@
+
+Python/wechat_jump_game/
+WeChat/
+Python/DuiTangZhuanJiXiaZai/
+Unity/
+GitHubBlog/
+
+**/.idea
+**/.sync
+**/.vs
+**/.vscode
+**/venv
+**/Debug
+**/Release
