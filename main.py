@@ -67,7 +67,7 @@ def start():
         Max = input("最大随机分数（默认 99）：")
         if Max == "":
             Max = 99
-        Min = input("最大随机分数（默认 80）：")
+        Min = input("最小随机分数（默认 80）：")
         if Min == "":
             Min = 80
         Summarize = input("总结（默认 “无”）：")
@@ -93,7 +93,6 @@ def start():
             print("开始第 %s 个" % i)
             commentary_course(session, x.string)
             print("完成\n")
-            return
             i += 1
     else:
         print("登陆失败")
@@ -153,3 +152,4 @@ def commentary_course(session, id):
 
 if __name__ == "__main__":
     start()
+    input("按任意键退出")
